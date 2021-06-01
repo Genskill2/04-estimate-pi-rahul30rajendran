@@ -50,7 +50,7 @@ int main(void) {
 			circle++;
 		}
 	}
-	float area = (4*circle)/(count-circle);
+	float area =(float) (4*circle)/(count-circle);
 	return area;
 }
 
