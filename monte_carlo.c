@@ -45,7 +45,7 @@ int main(void) {
 		
 		float x = frandom();
 		float y = frandom();
-		if(sqrt(x*x+y*y)<1)
+		if(sqrt(x*x+y*y)<=1)
 		{
 			circle++;
 		}
