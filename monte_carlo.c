@@ -40,6 +40,7 @@ int main(void) {
 }float mc_pi(int count)
 {
 	float circle=0;
+	float outcircle=0;
 	for(int i=0;i<count;i++)
 	{
 		
@@ -48,9 +49,10 @@ int main(void) {
 		if(sqrt(x*x+y*y)<=1)
 		{
 			circle++;
-		}
+		}else 
+			outcircle++;
 	}
-	float area =(float) (4*circle)/(count-circle);
+	float area =(float) (4*circle)/(outcircle);
 	return area;
 }
 
